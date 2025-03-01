@@ -21,3 +21,18 @@
     padding:20px;
     width: 40px;
 }
+
+.vert_center {
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    -ms-transform: translateY(-25%);
+    transform: translateY(-25%);
+}
+
+.horz_center {
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
