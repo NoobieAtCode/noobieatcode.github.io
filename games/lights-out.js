@@ -1,5 +1,5 @@
 $(document).ready(()=>{
-    $("body").append("<div class='winbox'>You Won</div>");
+    $("body #t").append("<div class='winbox'>You Won</div>");
     $("body").append("<div class='resetbutton'>Reset</div>");
     $("div.winbox").hide();
     $("table tr:first-child td").eq(2).addClass("light-on");
